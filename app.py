@@ -7,7 +7,7 @@ import traceback
 
 app = Flask(__name__)
 
-PAGE_ACCESS_TOKEN = ""#put your facebook page id
+PAGE_ACCESS_TOKEN = ""#put your facebook page token
 
 @app.route('/', methods=['GET'])
 def verify():
